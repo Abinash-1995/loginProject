@@ -10,6 +10,6 @@
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="hibernate.show_sql">true</property>
 		<property name="hbm2ddl.auto">update</property>
-		<mapping class="com.m.arun.dto.StudentDTO"/>
+		<mapping class="com.oehm.um.entity.Register"/>
 	</session-factory>
 </hibernate-configuration>
